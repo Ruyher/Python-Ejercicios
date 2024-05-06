@@ -1,0 +1,60 @@
+def SumaEjercicio1():
+    n1 = int(input("Ingrese un número."))
+    n2 = int(input("Ingrese otro número."))
+
+    resultado = n1 + n2
+
+    print("El resultado es: "+ resultado)
+
+SumaEjercicio1()   
+
+def SumaEjercicio2():
+    n1 = int(input("Ingrese un número."))
+    n2 = int(input("Ingrese otro número."))
+    n3 = int(input("Ingrese otro número."))
+    n4 = int(input("Ingrese otro número."))
+
+    resultado = n1 + n2 + n3 + n4
+
+    print("El resultado es: "+ resultado)
+
+SumaEjercicio2() 
+
+def SuperficieEjercicio3():
+    ladoA = int(input("Cuánto mide el lado a?"))
+    ladoB = int(input("Cuánto mide el lado b?"))
+
+    superficie = ladoA * ladoB
+
+    print("La superficie es: "+ superficie)
+SuperficieEjercicio3()
+
+def SuperficieEjercicio4():
+    ladoA = float(input("Inserte un número con decimales."))
+
+    superficie = ladoA * ladoA
+
+    print("La superficie es: "+ superficie)
+SuperficieEjercicio4()
+
+def ConversionEjercicio5():
+    hora = int(input("Ingrese la hora."))
+    minutos = int(input("Ingrese los minutos."))
+    segundos = int(input("Ingrese los segundos."))
+
+    resultado1 = hora * 3600
+    resultado2 = minutos *60
+
+    EnSegundos = resultado1 + resultado2 + segundos
+
+    print("El resultado expresado en segundos es: "+ EnSegundos)
+ConversionEjercicio5()
+
+def Ejercicio6():
+    ladoA = int(input("Cuánto mide el lado a?"))
+    ladoB = int(input("Cuánto mide el lado b?"))
+
+
+    suptriangulo = ladoA * ladoB /2
+    print("La superficie del triángulo es: "+suptriangulo)
+Ejercicio6()
