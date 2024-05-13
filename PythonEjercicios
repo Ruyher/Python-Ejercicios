@@ -130,3 +130,5 @@ def Ejercicio11():
     comision = AUx * 0.05
 
 #Ejercicio11()
+
+#Todas las actividades ya realizadas.
