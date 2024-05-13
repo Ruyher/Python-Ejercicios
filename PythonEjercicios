@@ -117,13 +117,16 @@ def Ejercicio10():
 #Ejercicio10
 
 def Ejercicio11():
-    n1 = int(input("¿Cuántos autos vendió este mes?."))
-    n2 = int(input("¿Cuál es el total del valor de todos los autos que vendió? Ingrese la cifra."))
 
-    comision = 200 * n1
-    adicional = n2 * 0.005
+    autos = []
+    inputUser = ""
+    while inputUser != "SALIR":
+        inputUser = input("ingrese el valor del auto vendido o SALIR")
+        if inputUser != "SALIR":
+            inputUser = float(inputUser)
+            autos.append(inputUser)
 
-    salarioTotal = 5500 + comision + adicional
+    AUx = sum(autos)
+    comision = AUx * 0.05
 
-    print("Tu salario es de: ")
 #Ejercicio11()
